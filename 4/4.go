@@ -237,7 +237,7 @@ func xmas(row int, col int, puzzle []string) int32 {
 
 func main() {
 
-	const filePath = "C:/Users/cosmi/GolandProjects/aoc/4/input.txt"
+	const filePath = "./input.txt"
 
 	file, err := os.Open(filePath)
 	check(err)
